@@ -23,6 +23,7 @@ extern "C" void __mlibc_thread_trampoline(void *(*fn)(void *), Tcb *tcb, void *a
 	mlibc::sys_thread_exit();
 }
 
+<<<<<<< HEAD
 #define DEFAULT_STACK 0x400000
 
 namespace mlibc {
@@ -78,3 +79,6 @@ extern "C" void __mlibc_thread_entry();
 
 
 }
+=======
+#define DEFAULT_STACK 0x400000
+>>>>>>> 9322daa7 (barebones port)
